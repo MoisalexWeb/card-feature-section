@@ -1,5 +1,9 @@
 import React from 'react'
 import Card from './Card.jsx'
+import imgKarma from "../images/icon-karma.svg"
+import imgSupervisor from "../images/icon-supervisor.svg"
+import imgTeamBuilder from "../images/icon-team-builder.svg"
+import imgCalculator from "../images/icon-calculator.svg"
 
 function App () {
 
@@ -37,7 +41,7 @@ function App () {
                     <Card 
                         title="supervisor"
                         description="Monitors activity to identify projects roadblocks"
-                        image="supervisor"
+                        image={imgSupervisor}
                         color="green"
                         addHoverAnimation={hoverAnimation}
                         removeHoverAnimation={removeAnimation}
@@ -45,7 +49,7 @@ function App () {
                     <Card
                         title="team builder"
                         description="Scan our talent networkto create the optimal team for your project"
-                        image="team-builder"
+                        image={imgTeamBuilder}
                         color="red"
                         addHoverAnimation={hoverAnimation}
                         removeHoverAnimation={removeAnimation}
@@ -53,7 +57,7 @@ function App () {
                     <Card
                         title="karma"
                         description="Regulary evaluates our talent to ensure quality"
-                        image="karma"
+                        image={imgKarma}
                         color="orange"
                         addHoverAnimation={hoverAnimation}
                         removeHoverAnimation={removeAnimation}
@@ -61,7 +65,7 @@ function App () {
                     <Card
                         title="calculator"
                         description="Use data from past projects to provide better delivery estimates"
-                        image="calculator"
+                        image={imgCalculator}
                         color="blue"
                         addHoverAnimation={hoverAnimation}
                         removeHoverAnimation={removeAnimation}

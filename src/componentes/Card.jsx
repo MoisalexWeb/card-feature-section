@@ -7,7 +7,7 @@ function Card ({ title, description, image, color, addHoverAnimation, removeHove
             <p className="card-description">{description}</p>
 
             <figure className="card__figure">
-                <img src={`./images/icon-${image}.svg`} alt=" " aria-hidden="true" />
+                <img src={image} alt=" " aria-hidden="true" />
             </figure>
         </article>
     )
