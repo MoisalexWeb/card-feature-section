@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card.jsx'
 
 import imgKarma from "/images/icon-karma.svg"
-import imgSupervisor from "/images/icon-supervisor.svg"
+import imgSupervisor from "images/icon-supervisor.svg"
 import imgTeamBuilder from "/images/icon-team-builder.svg"
 import imgCalculator from "/images/icon-calculator.svg"
 
