@@ -6,11 +6,6 @@ import imgSupervisor from "/images/icon-supervisor.svg"
 import imgTeamBuilder from "/images/icon-team-builder.svg"
 import imgCalculator from "/images/icon-calculator.svg"
 
-import imgKarma from "/icon-karma.svg"
-import imgSupervisor from "../images/icon-supervisor.svg"
-import imgTeamBuilder from "../images/icon-team-builder.svg"
-import imgCalculator from "../images/icon-calculator.svg"
-
 
 function App () {
 
